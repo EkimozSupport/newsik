@@ -10,7 +10,7 @@ from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
 
 
-@Client.on_message(command(_expand_commands("durdur@missmusicsbot","durdur") & other_filters)
+@Client.on_message(command(_expand_commands("durdur@mangomusicalbot","durdur") & other_filters)
 @errors
 @authorized_users_only
 async def durdur(_, message: Message):
@@ -25,7 +25,7 @@ async def durdur(_, message: Message):
         await message.reply_text(f"**{BN} :-** 🤐 Durduruldu!")
 
 
-@Client.on_message(command(_expand_commands("devam@missmusicsbot","devam") & other_filters)
+@Client.on_message(command(_expand_commands("devam@mangomusicalsbot","devam") & other_filters)
 @errors
 @authorized_users_only
 async def devam(_, message: Message):
@@ -37,10 +37,10 @@ async def devam(_, message: Message):
         await message.reply_text(f"**{BN} :-** 🙄 Hiçbirşey Durdurulmadı!")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text(f"**{BN} :-** 🥳 Devam Ediyor!")
+        await message.reply_text(f"**{BN} :-** 🤭 Devam Ediyor!")
 
 
-@Client.on_message(command(_expand_commands("son@missmusicsbot","son") & other_filters)
+@Client.on_message(command(_expand_commands("son@mangomusicalbot","son") & other_filters)
 @errors
 @authorized_users_only
 async def bitir(_, message: Message):
@@ -56,7 +56,7 @@ async def bitir(_, message: Message):
         await message.reply_text(f"**{BN} :-** ❌ Bitti!")
 
 
-@Client.on_message(command(_expand_commands("atla@missmusicsbot","atla") & other_filters)
+@Client.on_message(command(_expand_commands("atla@mangomusicalbot","atla") & other_filters)
 @errors
 @authorized_users_only
 async def atla(_, message: Message):
