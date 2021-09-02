@@ -1,8 +1,8 @@
 {
-  "name": "MusicBot",
+  "name": "MangoMusicalbot",
   "description": "Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Mehmetgul0202/missmusic1",
+  "repository": "https://github.com/EkimozSupport/newsik",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,7 +16,7 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "Miss Music Bot"
+      "value": "Mango Music Bot"
     },
     "API_ID": {
       "description": "App ID my.telegram.org/apps",
