@@ -11,7 +11,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 
-@Client.on_message(filters.command(_expand_commands('bul@missmusicsbot','bul') & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(_expand_commands('bul@mangomusicalbot','bul') & ~filters.private & ~filters.channel)
 def bul(client, message):
 
     user_id = message.from_user.id 
